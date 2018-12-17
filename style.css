@@ -214,13 +214,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-style{
 	font-size:28px;
 	line-height:32px;
+	width:100%;
 }
 .h1-style{
 	width:75.49%;
 }
 .p-2-style{
 	font-size:28px;
-	line-height:32px;
+	line-height:40px;
 }
 .link-style{
 	;
@@ -365,6 +366,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-style{
 	line-height:40px;
+	width:100%;
 }
 .p-2-style{
 	line-height:40px;
@@ -377,6 +379,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 575px){
 	.footer-link{
 	text-align:center;
+}
+.p-style{
+	font-size:18px;
+	line-height:28px;
+}
+.p-2-style{
+	font-size:18px;
+	line-height:28px;
 }
  }
 
