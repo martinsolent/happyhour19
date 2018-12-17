@@ -3,6 +3,8 @@
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
+html{overflow-x: hidden;} 
+
 body{
 	margin:0;
 	padding:0;
@@ -104,6 +106,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 .hero .hero-nav{
 	padding-left:inherit;
 	padding-right:inherit;
+}
+.navbar-dark .nav .dropdown-menu .nav-link{
+	color: rgb(64, 64, 64);
+}
+/* Two Bars Menu Icon */
+.navbar-light .menu-icon-two-bars .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-miterlimit='10' d='M4,10H26M4,20H26'/%3E%3C/svg%3E");
+}
+.navbar-dark .menu-icon-two-bars .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-miterlimit='10' d='M4,10H26M4,20H26'/%3E%3C/svg%3E");
 }
 /* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
 	color: rgb(64, 64, 64);
