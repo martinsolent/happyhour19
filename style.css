@@ -218,6 +218,11 @@ button{
 
 
 
+/* iFrame */
+
+iframe{
+	border:0;
+}
 
 
 /* ScrollToTop button */
